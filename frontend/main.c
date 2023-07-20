@@ -214,6 +214,7 @@ static int adts_parse(aac_buffer *b, int *bitrate, float *length)
 
             frame_length = ((((unsigned int)b->buffer[3] & 0x3)) << 11)
                 | (((unsigned int)b->buffer[4]) << 3) | (b->buffer[5] >> 5);
+fprintf( stderr, "frame_length: %ld\n", frame_length );
             if (frame_length == 0)
                 break;
 

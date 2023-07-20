@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "124FE5FF2A66AD7300C72419"
-               BuildableName = "FrontEnd"
-               BlueprintName = "FrontEnd"
+               BlueprintIdentifier = "124FE6192A66ADE200C72419"
+               BuildableName = "Dumper"
+               BlueprintName = "Dumper"
                ReferencedContainer = "container:macOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,18 +45,12 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "124FE5FF2A66AD7300C72419"
-            BuildableName = "FrontEnd"
-            BlueprintName = "FrontEnd"
+            BlueprintIdentifier = "124FE6192A66ADE200C72419"
+            BuildableName = "Dumper"
+            BlueprintName = "Dumper"
             ReferencedContainer = "container:macOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <CommandLineArguments>
-         <CommandLineArgument
-            argument = "/Volumes/upStream/AAC/ss.m4a"
-            isEnabled = "YES">
-         </CommandLineArgument>
-      </CommandLineArguments>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -68,9 +62,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "124FE5FF2A66AD7300C72419"
-            BuildableName = "FrontEnd"
-            BlueprintName = "FrontEnd"
+            BlueprintIdentifier = "124FE6192A66ADE200C72419"
+            BuildableName = "Dumper"
+            BlueprintName = "Dumper"
             ReferencedContainer = "container:macOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

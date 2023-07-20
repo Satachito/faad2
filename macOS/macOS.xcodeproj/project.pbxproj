@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		124FE6112A66AD8000C72419 /* audio.c in Sources */ = {isa = PBXBuildFile; fileRef = 124FE6072A66AD8000C72419 /* audio.c */; };
-		124FE6122A66AD8000C72419 /* getopt.c in Sources */ = {isa = PBXBuildFile; fileRef = 124FE6092A66AD8000C72419 /* getopt.c */; };
-		124FE6132A66AD8000C72419 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 124FE60A2A66AD8000C72419 /* main.c */; };
-		124FE6142A66AD8000C72419 /* unicode_support.c in Sources */ = {isa = PBXBuildFile; fileRef = 124FE60B2A66AD8000C72419 /* unicode_support.c */; };
-		124FE6152A66AD8000C72419 /* mp4read.c in Sources */ = {isa = PBXBuildFile; fileRef = 124FE60D2A66AD8000C72419 /* mp4read.c */; };
-		124FE61D2A66ADE200C72419 /* Dumper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124FE61C2A66ADE200C72419 /* Dumper.cpp */; };
 		124FE6862A66ADFF00C72419 /* is.c in Sources */ = {isa = PBXBuildFile; fileRef = 124FE6232A66ADFE00C72419 /* is.c */; };
 		124FE6872A66ADFF00C72419 /* is.c in Sources */ = {isa = PBXBuildFile; fileRef = 124FE6232A66ADFE00C72419 /* is.c */; };
 		124FE6882A66ADFF00C72419 /* ssr_fb.c in Sources */ = {isa = PBXBuildFile; fileRef = 124FE6242A66ADFE00C72419 /* ssr_fb.c */; };
@@ -89,6 +83,12 @@
 		124FE6CF2A66ADFF00C72419 /* sbr_syntax.c in Sources */ = {isa = PBXBuildFile; fileRef = 124FE67D2A66ADFF00C72419 /* sbr_syntax.c */; };
 		124FE6D02A66ADFF00C72419 /* drc.c in Sources */ = {isa = PBXBuildFile; fileRef = 124FE6832A66ADFF00C72419 /* drc.c */; };
 		124FE6D12A66ADFF00C72419 /* drc.c in Sources */ = {isa = PBXBuildFile; fileRef = 124FE6832A66ADFF00C72419 /* drc.c */; };
+		12E3197B2A678FD700152F14 /* mp4read.c in Sources */ = {isa = PBXBuildFile; fileRef = 12E319712A678FD700152F14 /* mp4read.c */; };
+		12E3197C2A678FD700152F14 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 12E319752A678FD700152F14 /* main.c */; };
+		12E3197D2A678FD700152F14 /* getopt.c in Sources */ = {isa = PBXBuildFile; fileRef = 12E319782A678FD700152F14 /* getopt.c */; };
+		12E3197E2A678FD700152F14 /* unicode_support.c in Sources */ = {isa = PBXBuildFile; fileRef = 12E319792A678FD700152F14 /* unicode_support.c */; };
+		12E3197F2A678FD700152F14 /* audio.c in Sources */ = {isa = PBXBuildFile; fileRef = 12E3197A2A678FD700152F14 /* audio.c */; };
+		12E319842A690E5B00152F14 /* Dumper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12E319832A690E5B00152F14 /* Dumper.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -114,18 +114,7 @@
 
 /* Begin PBXFileReference section */
 		124FE6002A66AD7300C72419 /* FrontEnd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FrontEnd; sourceTree = BUILT_PRODUCTS_DIR; };
-		124FE6072A66AD8000C72419 /* audio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = audio.c; path = ../../frontend/audio.c; sourceTree = "<group>"; };
-		124FE6082A66AD8000C72419 /* faad.man */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = faad.man; path = ../../frontend/faad.man; sourceTree = "<group>"; };
-		124FE6092A66AD8000C72419 /* getopt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = getopt.c; path = ../../frontend/getopt.c; sourceTree = "<group>"; };
-		124FE60A2A66AD8000C72419 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = ../../frontend/main.c; sourceTree = "<group>"; };
-		124FE60B2A66AD8000C72419 /* unicode_support.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = unicode_support.c; path = ../../frontend/unicode_support.c; sourceTree = "<group>"; };
-		124FE60C2A66AD8000C72419 /* unicode_support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unicode_support.h; path = ../../frontend/unicode_support.h; sourceTree = "<group>"; };
-		124FE60D2A66AD8000C72419 /* mp4read.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mp4read.c; path = ../../frontend/mp4read.c; sourceTree = "<group>"; };
-		124FE60E2A66AD8000C72419 /* getopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = getopt.h; path = ../../frontend/getopt.h; sourceTree = "<group>"; };
-		124FE60F2A66AD8000C72419 /* mp4read.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mp4read.h; path = ../../frontend/mp4read.h; sourceTree = "<group>"; };
-		124FE6102A66AD8000C72419 /* audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = audio.h; path = ../../frontend/audio.h; sourceTree = "<group>"; };
 		124FE61A2A66ADE200C72419 /* Dumper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Dumper; sourceTree = BUILT_PRODUCTS_DIR; };
-		124FE61C2A66ADE200C72419 /* Dumper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dumper.cpp; sourceTree = "<group>"; };
 		124FE6222A66ADFE00C72419 /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
 		124FE6232A66ADFE00C72419 /* is.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = is.c; sourceTree = "<group>"; };
 		124FE6242A66ADFE00C72419 /* ssr_fb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ssr_fb.c; sourceTree = "<group>"; };
@@ -225,6 +214,17 @@
 		124FE6832A66ADFF00C72419 /* drc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = drc.c; sourceTree = "<group>"; };
 		124FE6842A66ADFF00C72419 /* sbr_hfgen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sbr_hfgen.h; sourceTree = "<group>"; };
 		124FE6852A66ADFF00C72419 /* specrec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = specrec.h; sourceTree = "<group>"; };
+		12E319712A678FD700152F14 /* mp4read.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mp4read.c; sourceTree = "<group>"; };
+		12E319722A678FD700152F14 /* audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audio.h; sourceTree = "<group>"; };
+		12E319732A678FD700152F14 /* unicode_support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unicode_support.h; sourceTree = "<group>"; };
+		12E319742A678FD700152F14 /* getopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getopt.h; sourceTree = "<group>"; };
+		12E319752A678FD700152F14 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		12E319762A678FD700152F14 /* mp4read.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mp4read.h; sourceTree = "<group>"; };
+		12E319772A678FD700152F14 /* faad.man */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = faad.man; sourceTree = "<group>"; };
+		12E319782A678FD700152F14 /* getopt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getopt.c; sourceTree = "<group>"; };
+		12E319792A678FD700152F14 /* unicode_support.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unicode_support.c; sourceTree = "<group>"; };
+		12E3197A2A678FD700152F14 /* audio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = audio.c; sourceTree = "<group>"; };
+		12E319832A690E5B00152F14 /* Dumper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dumper.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,7 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				124FE6212A66ADFE00C72419 /* libfaad */,
-				124FE6012A66AD7300C72419 /* FrontEnd */,
+				12E319702A678FD700152F14 /* frontend */,
 				124FE61B2A66ADE200C72419 /* Dumper */,
 				124FE5692A66AC7C00C72419 /* Products */,
 			);
@@ -264,27 +264,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		124FE6012A66AD7300C72419 /* FrontEnd */ = {
-			isa = PBXGroup;
-			children = (
-				124FE6072A66AD8000C72419 /* audio.c */,
-				124FE6102A66AD8000C72419 /* audio.h */,
-				124FE6082A66AD8000C72419 /* faad.man */,
-				124FE6092A66AD8000C72419 /* getopt.c */,
-				124FE60E2A66AD8000C72419 /* getopt.h */,
-				124FE60A2A66AD8000C72419 /* main.c */,
-				124FE60D2A66AD8000C72419 /* mp4read.c */,
-				124FE60F2A66AD8000C72419 /* mp4read.h */,
-				124FE60B2A66AD8000C72419 /* unicode_support.c */,
-				124FE60C2A66AD8000C72419 /* unicode_support.h */,
-			);
-			path = FrontEnd;
-			sourceTree = "<group>";
-		};
 		124FE61B2A66ADE200C72419 /* Dumper */ = {
 			isa = PBXGroup;
 			children = (
-				124FE61C2A66ADE200C72419 /* Dumper.cpp */,
+				12E319832A690E5B00152F14 /* Dumper.cpp */,
 			);
 			path = Dumper;
 			sourceTree = "<group>";
@@ -404,6 +387,24 @@
 			path = codebook;
 			sourceTree = "<group>";
 		};
+		12E319702A678FD700152F14 /* frontend */ = {
+			isa = PBXGroup;
+			children = (
+				12E319712A678FD700152F14 /* mp4read.c */,
+				12E319722A678FD700152F14 /* audio.h */,
+				12E319732A678FD700152F14 /* unicode_support.h */,
+				12E319742A678FD700152F14 /* getopt.h */,
+				12E319752A678FD700152F14 /* main.c */,
+				12E319762A678FD700152F14 /* mp4read.h */,
+				12E319772A678FD700152F14 /* faad.man */,
+				12E319782A678FD700152F14 /* getopt.c */,
+				12E319792A678FD700152F14 /* unicode_support.c */,
+				12E3197A2A678FD700152F14 /* audio.c */,
+			);
+			name = frontend;
+			path = ../frontend;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -482,12 +483,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E3197F2A678FD700152F14 /* audio.c in Sources */,
 				124FE6A42A66ADFF00C72419 /* filtbank.c in Sources */,
 				124FE6942A66ADFF00C72419 /* mdct.c in Sources */,
+				12E3197B2A678FD700152F14 /* mp4read.c in Sources */,
 				124FE6902A66ADFF00C72419 /* ps_syntax.c in Sources */,
-				124FE6132A66AD8000C72419 /* main.c in Sources */,
 				124FE68C2A66ADFF00C72419 /* ms.c in Sources */,
-				124FE6142A66AD8000C72419 /* unicode_support.c in Sources */,
+				12E3197E2A678FD700152F14 /* unicode_support.c in Sources */,
 				124FE6B62A66ADFF00C72419 /* ssr.c in Sources */,
 				124FE6982A66ADFF00C72419 /* sbr_hfgen.c in Sources */,
 				124FE6C62A66ADFF00C72419 /* ssr_ipqf.c in Sources */,
@@ -499,11 +501,12 @@
 				124FE6A22A66ADFF00C72419 /* ic_predict.c in Sources */,
 				124FE6B82A66ADFF00C72419 /* cfft.c in Sources */,
 				124FE6C22A66ADFF00C72419 /* hcr.c in Sources */,
+				12E3197D2A678FD700152F14 /* getopt.c in Sources */,
 				124FE6A82A66ADFF00C72419 /* sbr_huff.c in Sources */,
 				124FE6AE2A66ADFF00C72419 /* sbr_dec.c in Sources */,
 				124FE6922A66ADFF00C72419 /* sbr_e_nf.c in Sources */,
 				124FE6D02A66ADFF00C72419 /* drc.c in Sources */,
-				124FE6112A66AD8000C72419 /* audio.c in Sources */,
+				12E3197C2A678FD700152F14 /* main.c in Sources */,
 				124FE6A62A66ADFF00C72419 /* huffman.c in Sources */,
 				124FE68E2A66ADFF00C72419 /* pulse.c in Sources */,
 				124FE6CA2A66ADFF00C72419 /* ps_dec.c in Sources */,
@@ -519,8 +522,6 @@
 				124FE6B42A66ADFF00C72419 /* rvlc.c in Sources */,
 				124FE6882A66ADFF00C72419 /* ssr_fb.c in Sources */,
 				124FE6B02A66ADFF00C72419 /* error.c in Sources */,
-				124FE6122A66AD8000C72419 /* getopt.c in Sources */,
-				124FE6152A66AD8000C72419 /* mp4read.c in Sources */,
 				124FE69A2A66ADFF00C72419 /* specrec.c in Sources */,
 				124FE69C2A66ADFF00C72419 /* tns.c in Sources */,
 				124FE6C42A66ADFF00C72419 /* decoder.c in Sources */,
@@ -552,10 +553,10 @@
 				124FE6BF2A66ADFF00C72419 /* syntax.c in Sources */,
 				124FE6D12A66ADFF00C72419 /* drc.c in Sources */,
 				124FE6AB2A66ADFF00C72419 /* mp4.c in Sources */,
-				124FE61D2A66ADE200C72419 /* Dumper.cpp in Sources */,
 				124FE68F2A66ADFF00C72419 /* pulse.c in Sources */,
 				124FE6CB2A66ADFF00C72419 /* ps_dec.c in Sources */,
 				124FE68B2A66ADFF00C72419 /* common.c in Sources */,
+				12E319842A690E5B00152F14 /* Dumper.cpp in Sources */,
 				124FE69B2A66ADFF00C72419 /* specrec.c in Sources */,
 				124FE6A92A66ADFF00C72419 /* sbr_huff.c in Sources */,
 				124FE6C32A66ADFF00C72419 /* hcr.c in Sources */,
@@ -632,6 +633,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DPACKAGE_VERSION=\\\"1.0\\\"";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -684,6 +686,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = "-DPACKAGE_VERSION=\\\"1.0\\\"";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -694,7 +697,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42D35TL6R9;
 				ENABLE_HARDENED_RUNTIME = YES;
-				OTHER_CFLAGS = "-DPACKAGE_VERSION=\\\"1.0\\\"";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -705,7 +707,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42D35TL6R9;
 				ENABLE_HARDENED_RUNTIME = YES;
-				OTHER_CFLAGS = "-DPACKAGE_VERSION=\\\"1.0\\\"";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
