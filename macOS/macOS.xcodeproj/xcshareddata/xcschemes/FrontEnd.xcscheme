@@ -53,7 +53,11 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "/Volumes/upStream/AAC/ss.m4a"
+            argument = "/Volumes/AV/AAC/ss.m4a"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "/Volumes/AV/AAC/&quot;AAC 5.1.mp4&quot;"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
